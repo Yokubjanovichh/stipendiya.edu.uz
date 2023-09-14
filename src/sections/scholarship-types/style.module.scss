@@ -1,0 +1,40 @@
+.types {
+  padding: 120px 75px;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  align-items: center;
+  .titleMain {
+    color: #171740;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .title {
+    color: #171740;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .desc {
+    width: 1176px;
+    color: #242464;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .typeItemList {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    align-items: flex-start;
+    .typeItemComlumn {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.scholarshipWrap {
+  width: 416px;
+  height: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-radius: 10px;
+  img {
+    width: 384px;
+    height: 419px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+  .name {
+    color: #171740;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .desc {
+    color: #242464;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

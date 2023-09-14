@@ -1,0 +1,24 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 30px;
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    .logo {
+      width: 56px;
+      height: 56px;
+    }
+    .title {
+      color: #171740;
+      font-family: "Inter", sans-serif;
+      font-weight: 600;
+      font-size: 24px;
+    }
+  }
+}

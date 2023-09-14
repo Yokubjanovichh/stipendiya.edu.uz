@@ -1,0 +1,19 @@
+.typeItem {
+  width: 290px;
+  display: flex;
+  align-self: center;
+  gap: 10px;
+  .typeIcon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #fff;
+    background: #89da61;
+    text-align: center;
+  }
+  .typeChildrenMain {
+    color: #242464;
+    font-weight: 400;
+    font-size: 18px;
+  }
+}

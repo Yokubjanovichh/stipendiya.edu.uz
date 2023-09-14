@@ -1,0 +1,32 @@
+.countSec {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  .wrapCount {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .count {
+    color: #171740;
+    font-size: 40px;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    line-height: 48px;
+  }
+  .countTetx {
+    width: 135px;
+    color: #171740;
+    font-size: 18px;
+    font-family: Inter, sans-serif;
+    font-weight: 300;
+    margin: 8px 0px 0px 8px;
+  }
+
+  .slash {
+    width: 1px;
+    height: 48px;
+    color: #b0b0b2;
+  }
+}
