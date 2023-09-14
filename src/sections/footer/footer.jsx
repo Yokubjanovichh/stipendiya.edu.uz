@@ -22,16 +22,16 @@ export default function Footer() {
         <div className={style.footerSocial}>
           <p className={style.footerSocialTitle}>Biz ijtimoiy tarmoqlarda</p>
           <div className={style.footerSocialIcons}>
-            <a href="/">
+            <a href="https://www.instagram.com/">
               <img src={Instagram} alt="Instagram" /> Instagram
             </a>
-            <a href="/">
+            <a href="https://web.telegram.org/k/">
               <img src={Telegram} alt="Telegram" /> Telegram
             </a>
-            <a href="/">
+            <a href="https://www.facebook.com/">
               <img src={Facebook} alt="Facebook" /> Facebook
             </a>
-            <a href="/">
+            <a href="https://www.youtube.com/">
               <img src={YouTube} alt="YouTube" /> YouTube
             </a>
           </div>
@@ -45,7 +45,7 @@ export default function Footer() {
             <a href="/">
               <img src={Phone} alt="Phone" /> +998712307171
             </a>
-            <a href="/">
+            <a href="https://web.telegram.org/k/">
               <img src={Telegram} alt="Telegram" /> telegram bot
             </a>
           </div>

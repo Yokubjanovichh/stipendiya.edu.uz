@@ -10,7 +10,7 @@ export default function Navbar() {
         <img src={logo} alt="stipendiyaLogo" />
         <p className={style.title}>stipendiya.edu.uz</p>
       </div>
-      <Button text={"ONE ID orqali kirish"} />
+      <Button text={"ONE ID orqali kirish"} link={"https://id.egov.uz/"} />
     </div>
   );
 }

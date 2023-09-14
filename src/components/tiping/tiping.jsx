@@ -24,7 +24,7 @@ export default function Typing() {
           <p>stipendiyasi</p>
         </div>
         <p className={style.description}>Talabalar va doktorantlar uchun davlat stipendiyalariga onlayn ariza yuborish portali</p>
-        <Button text={"Ariza topshirish →"} />
+        <Button text={"Ariza topshirish →"} link={"https://id.egov.uz/"} />
       </div>
       <Counter />
     </div>

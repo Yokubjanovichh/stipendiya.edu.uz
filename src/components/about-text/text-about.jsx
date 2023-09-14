@@ -7,7 +7,7 @@ export default function TextAbout() {
     <div className={style.textAbout}>
       <p className={style.textTitle}>Tizimdan qanday foydalaniladi?</p>
       <p className={style.desc}>Tizimdan ro‘yxatdan o‘ting, yutuqlarni kiriting va ariza topshiring.</p>
-      <Button text={"Ariza topshirish →"} />
+      <Button text={"Ariza topshirish →"} link={"https://id.egov.uz/"} />
     </div>
   );
 }

@@ -58,7 +58,7 @@ export default function Scholarship() {
           <ScholarshipItem key={idx} imgUrl={item.imgUrl} name={item.name} desc={item.desc} />
         ))}
       </div>
-      <Button text={"Batafsil ko'rish ⤴"} textColor={"#89DA61"} bgColor="none" borderColor={"#89DA61"} />
+      <Button text={"Batafsil ko'rish ⤴"} textColor={"#89DA61"} bgColor="none" borderColor={"#89DA61"} link={"https://lex.uz/docs/-1399382?ONDATE=15.05.2017%2000"} />
     </div>
   );
 }
