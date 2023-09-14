@@ -1,5 +1,5 @@
 import React from "react";
-import { TypeItem } from "../../components/index";
+import { TypeItem } from "../../components";
 import style from "./style.module.scss";
 
 export default function Types() {

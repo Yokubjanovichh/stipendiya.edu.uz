@@ -1,5 +1,5 @@
 import React from "react";
-import { Typing, HeroImg } from "../../../components/index";
+import { Typing, HeroImg } from "../../../components";
 import style from "./hero.module.scss";
 
 export default function Hero() {

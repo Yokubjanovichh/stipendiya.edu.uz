@@ -1,5 +1,5 @@
 import React from "react";
-import { Video, AboutText } from "../../components/index";
+import { Video, AboutText } from "../../components";
 import style from "./style.module.scss";
 
 export default function About() {

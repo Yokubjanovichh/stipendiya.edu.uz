@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../../components/index";
+import { Button } from "../../components";
 
 import ScholarshipItem from "../../components/scholarship-item/scholarship-item";
 import abuRayhonBeruniy from "../../assets/img/abuRayhonBeruniy.161723f.jpg";

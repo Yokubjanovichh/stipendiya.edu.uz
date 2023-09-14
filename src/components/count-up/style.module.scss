@@ -6,7 +6,7 @@
   .wrapCount {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
   }
   .count {
     color: #171740;
@@ -16,9 +16,9 @@
     line-height: 48px;
   }
   .countTetx {
-    width: 135px;
+    width: 90px;
     color: #171740;
-    font-size: 18px;
+    font-size: 12px;
     font-family: Inter, sans-serif;
     font-weight: 300;
     margin: 8px 0px 0px 8px;
