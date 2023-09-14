@@ -8,8 +8,8 @@ export default function Typing() {
   const [typeEffect] = useTypewriter({
     words: ["Islom Karimov", "Prezident", "Ibn Sino", "Imom Al-Buxoriy", "Beruniy", "Ibn Sino", "Ulug'bek", "Navoiy"],
     loop: {},
-    typeSpeed: 600,
-    delaySpeed: 200,
+    typeSpeed: 300,
+    delaySpeed: 1500,
   });
   return (
     <div className={style.container}>
@@ -18,7 +18,7 @@ export default function Typing() {
           <p>
             {typeEffect}{" "}
             <span className={style.cursor}>
-              <Cursor cursorStyle="|" />
+              <Cursor cursorBlinking={true} cursorStyle="|" />
             </span>
           </p>
           <p>stipendiyasi</p>

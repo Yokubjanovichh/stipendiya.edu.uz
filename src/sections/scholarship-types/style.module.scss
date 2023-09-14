@@ -29,8 +29,8 @@
   .typeItemList {
     display: flex;
     align-items: center;
-    column-gap: 30px;
     align-items: flex-start;
+    gap: 50px;
     .typeItemComlumn {
       display: flex;
       flex-direction: column;

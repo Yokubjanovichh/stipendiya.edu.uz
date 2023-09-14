@@ -39,10 +39,10 @@ export default function Footer() {
         <div className={style.footerSocial}>
           <p className={style.footerSocialTitle}>Bog'lanish</p>
           <div className={style.footerSocialIcons}>
-            <a href="/">
+            <a href="tel: 1006">
               <img src={Phone} alt="Phone" /> Ishonch raqami: 1006
             </a>
-            <a href="/">
+            <a href="tel: +998712307171">
               <img src={Phone} alt="Phone" /> +998712307171
             </a>
             <a href="https://web.telegram.org/k/">
@@ -54,7 +54,7 @@ export default function Footer() {
       <div className={style.hr}></div>
       <div className={style.copied}>
         <p>2023 © stipendiya.edu.uz</p>
-        <p>© Raqamli ta'lim texnologiyalarini rivojlantirish markazi</p>
+        <a href="https://t.me/elektron_talim_markazi">© Raqamli ta'lim texnologiyalarini rivojlantirish markazi</a>
       </div>
     </div>
   );

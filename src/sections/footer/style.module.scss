@@ -81,13 +81,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    p {
+    p,
+    a {
       color: #fff;
       font-family: "Inter", sans-serif;
       font-size: 14px;
       transition: all 0.02s ease;
     }
-    & > p:last-child {
+    & > a:last-child {
+      text-decoration: none;
       cursor: pointer;
       &:hover {
         color: blue;
