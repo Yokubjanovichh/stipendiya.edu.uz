@@ -1,4 +1,4 @@
-import { Header, AboutSite, Scholarship, Types, Footer } from "./sections/index";
+import { Header, AboutSite, Scholarship, Types, Footer } from "./sections";
 
 function App() {
   return (
